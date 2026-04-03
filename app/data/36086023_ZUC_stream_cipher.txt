@@ -1,0 +1,1 @@
+ZUC is a stream cipher included in the Long Term Evolution standards starting in Release 11 for mobile devices. It is named after Zu Chongzhi, the fifth- century Chinese mathematician. It uses a 16-stage linear feedback shift register with each stage in {\rm GF}(2^{31}-1) and produces a 32-bit word on each tick. ==References== Category:Stream ciphers ==Further reading== *

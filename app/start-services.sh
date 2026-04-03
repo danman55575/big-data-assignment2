@@ -1,6 +1,4 @@
 #!/bin/bash
-# This will run only by the master node
-
 # starting HDFS daemons
 $HADOOP_HOME/sbin/start-dfs.sh
 
@@ -15,8 +13,6 @@ mapred --daemon start historyserver
 # track process IDs of services
 jps -lm
 
-# subtool to perform administrator functions on HDFS
-# outputs a brief report on the overall HDFS filesystem
 hdfs dfsadmin -report
 
 # If namenode in safemode then leave it
